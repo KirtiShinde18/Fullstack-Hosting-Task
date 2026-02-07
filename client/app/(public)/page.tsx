@@ -39,8 +39,8 @@ const Login = () => {
 
   return <>
     <form onSubmit={handleSubmit(handleLogin)}>
-      <input type="email"  {...register("email")} />
-      <input type="password"  {...register("password")} />
+      <input type="email"  {...register("email")} placeholder="email"/>
+      <input type="password"  {...register("password")} placeholder="password"/>
       <button type="submit">login</button>
     </form>
   </>
