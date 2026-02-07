@@ -40,9 +40,9 @@ const Register = () => {
 
     return <>
         <form onSubmit={handleSubmit(handleLogin)}>
-            <input type="text"  {...register("name")} />
-            <input type="email"  {...register("email")} />
-            <input type="password"  {...register("password")} />
+            <input type="text"  {...register("name")} placeholder="name"/>
+            <input type="email"  {...register("email")} placeholder="email"/>
+            <input type="password"  {...register("password")} placeholder="pass"/>
             <button type="submit">register</button>
         </form>
     </>
