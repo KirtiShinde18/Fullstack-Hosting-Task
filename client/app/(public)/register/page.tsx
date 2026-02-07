@@ -43,7 +43,7 @@ const Register = () => {
             <input type="text"  {...register("name")} />
             <input type="email"  {...register("email")} />
             <input type="password"  {...register("password")} />
-            <button type="submit">login</button>
+            <button type="submit">register</button>
         </form>
     </>
 }
